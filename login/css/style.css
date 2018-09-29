@@ -1,0 +1,152 @@
+body{
+	margin: 0;
+	padding: 0;
+	width:100%;
+	height: 1080px;
+	background-color: #eaffe2;
+}
+header{
+	background: #00695c;
+	width: 100%;
+	overflow: hidden;
+}
+
+.table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 2px solid #212020;
+    width: 95%;
+    font-family: times new roman;
+    margin: 40px 30px;
+
+}
+.table, .table td,.table th {
+    border: 2px solid #212020;
+    padding: 4px 8px;
+    font-family: times new roman;
+    text-align: center;
+    color: black;
+}
+.table tr:nth-child(even){background-color: #00897b
+}
+
+section ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+section ul li{
+	
+}
+section ul li a {
+    text-decoration: none;
+    margin: -45px 29px;
+    padding: 11px 27px;
+    background: #00897b;
+    border-radius: 5px;
+    float: left;
+}
+
+.form{
+	margin: 30px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+input{
+	display: block;
+	background: #ddd3ff;
+	width: 90%;
+	padding: 10px 15px;
+	margin: 5px 12px;
+	border: none;
+	border-radius: 5px;
+	color: black;
+	font-size: 16px;
+}
+
+
+select{
+	background: #00897b;
+	width: 95%;
+	padding: 10px 15px;
+	margin: 0 12px;
+	border: none;
+	border-radius: 5px;
+	color: black;
+}
+option{
+	background: #c0ca33;
+	color: black;
+	height: 30px;
+	border-radius: 5px;
+}
+.inputform{
+	display: inline-block;
+	width: 49% !important;
+	margin-left: 15%;
+}
+.V_submitbutton{
+	display: inline-block;
+	width: 123% !important;
+	margin: 10px 0px;
+	padding: 10px 20px;
+	float: right;
+}
+.submitbutton{
+	width: 25% !important;
+	margin: 14px 20px;
+	padding: 10px 20px;
+	float: right;
+}
+hr{
+	margin-bottom: 50px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 3px solid green;
+	width: 300px;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+.page {
+	background: #695a9b;
+	margin: 131px 549px;
+	padding: 80px 50px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px 5px green;
+	font-size: 20px;
+
+
+}
+
+.log {
+	margin: 6px 0px;
+	background: white;
+	color: black;
+	font-weight: bold;
+	width: 87%;
+	
+	font-family: perpetu
+}
+.logbutton{
+	background: #92e893;
+	font-family: perperua;
+}
+.admininput{
+	background: white;
+	color: gray;
+	font-weight: bold;
+	width: 100%;
+	margin: 10px auto;
+	font-size: 16px;
+}
+.confirm{
+	height: 30px;
+	width: 20px;
+}
